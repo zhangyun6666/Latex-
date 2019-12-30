@@ -1,0 +1,269 @@
+\documentclass{article}
+\usepackage[UTF8]{ctex}
+\usepackage{geometry}
+\usepackage{natbib}
+\geometry{left=3.18cm,right=3.18cm,top=2.54cm,bottom=2.54cm}
+\usepackage{graphicx}
+\pagestyle{plain}	
+\usepackage{setspace}
+\usepackage{caption2}
+\usepackage{datetime} %日期
+\renewcommand{\today}{\number\year 年 \number\month 月 \number\day 日}
+\renewcommand{\captionlabelfont}{\small}
+\renewcommand{\captionfont}{\small}
+\begin{document}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=8cm]{pic/upc.png}
+
+    \label{figupc}
+\end{figure}
+
+	\begin{center}
+		\quad \\
+		\quad \\
+		\heiti \fontsize{45}{17} \quad \quad \quad 
+		\vskip 1.5cm
+		\heiti \zihao{2} 《计算科学导论》课程总结报告
+	\end{center}
+	\vskip 2.0cm
+		
+	\begin{quotation}
+% 	\begin{center}
+		\doublespacing
+		
+        \zihao{4}\par\setlength\parindent{7em}
+		\quad 
+
+		学生姓名：\underline{\qquad  张云 \qquad \qquad}
+
+		学\hspace{0.61cm} 号：\underline{\qquad 1607010427\qquad}
+		
+		专业班级：\underline{\qquad 计科1604 \qquad  }
+		
+        学\hspace{0.61cm} 院：\underline{计算机科学与技术学院}
+% 	\end{center}
+		\vskip 2cm
+		\centering
+		\begin{table}[h]
+            \centering 
+            \zihao{4}
+            \begin{tabular}{|c|c|c|c|c|c|c|}
+            % 这里的rl 与表格对应可以看到，姓名是r，右对齐的；学号是l，左对齐的；若想居中，使用c关键字。
+                \hline
+                课程认识 & 问题思 考 & 格式规范  & IT工具  & Latex附加  & 总分 & 评阅教师 \\
+                30\% & 30\% & 20\% & 20\% & 10\% &  &  \\
+                \hline
+                 & & & & & &\\
+                & & & & & &\\
+                \hline
+            \end{tabular}
+        \end{table}
+		\vskip 2cm
+		\today
+	\end{quotation}
+
+\thispagestyle{empty}
+\newpage
+\setcounter{page}{1}
+% 在这之前是封面，在这之后是正文
+\section{引言}
+\par 电子计算机的诞生使得这个世界都发生了翻天覆地的变化，计算机现在已经成为了促进社会经济发展的必须品，它对整个世界的科技，政治，经济，文化，教育等行业都产生了重要的影响。计算科学真的太强了，这门学科建立在严密的数学基础之上，运用计算机的语言逻辑，成为继数学和物理之后，又形成了第三个完美的科学体系！\par
+《计算科学导论》重在引导学生怎么从科学哲学的角度去认识和学习计算科学，也包括为学习后续课程准备的布尔代数的基础知识。这本书带我重新认识了计算机的世界，通过对这这本书的深入学习，我重新认识了计算机，对计算机的起源与发展、计算机体系结构、程序设计、算法、软件工程、操作系统、人工智能以及计算机专业的培养目标都有了更深入更全面的认识，同时在学习这本书的过程中，我对计算科学的兴趣也得到了培养，为以后的学习也奠定了基础[1]。 \par
+全书共5章，第一章讲了关于计算科学的来历，思想方法等内容，第二章讲了计算科学的基本概念和基础知识，其中包括计算模型、二进制，数字逻辑与集成电路，算法指令，计算机组织、网络等基本知识，第三章则讲的是计算科学的意义，内容和方法等，也是全书十分重要的一章，也是上课重点讲解的一章，此外，还有第四章关于如何学习计算科学和健康成长的思维方法，第五章关于布尔代数的基础知识。\par
+接下来是我对《计算科学导论》这本书的学习后的一些认识和体会，以及对一些计算机基础知识的理解。
+
+
+\section{对计算科学导论这门课程的认识、体会}
+\par 总体而言，这门课主要讲了通用数字计算机系统结构与工作原理，数字逻辑与集成电路，机器指令与汇编语言，算法、过程与程序，高级语言与程序设计，系统软件与应用软件，计算机组织与体系结构，并行计算机、通道与并行计算，计算机网络与通信，计算机图形学与图像处理，逻辑与人工智能到数据处理与演化计，计算机科学与技术一级学科等领域内的一些重要的基本概念，还围绕计算机科学与技术学科的定义、特点、基本问题、发展主线、主流方向、学科方法论、历史渊源、发展变化、知识组织结构与分类体系、学科发展的潮流与未来发展方向、学科人才培养目标、教学重点与科学素养等内容进行了系统而又深入浅出的论述，以科学办学思想和内涵发展优先的理念为基础，全面阐述了在培养计算机科学与技术一级学科创新人才与高素质专业技术开发人才的过程中，如何使学生正确地认识和学好计算机科学与技术学科[3]。最后，依据人才培养的基本模式和“教材一体化设计”的研究报告，该教材还介绍了布尔代数的基础知识。\par
+
+\subsection{人工智能与计算科学}
+
+\begin{figure}[!h]
+	\begin{center}
+		\includegraphics[width=10 cm]{pic/AlphaGo.jpg}
+		\caption{AlphaGo}
+		\label{fig:AlphaGo}
+	\end{center}
+\end{figure}
+
+\par “人工智能”（Artificial Intelligence） 简称AI。它是研究、开发用于模拟、延伸和扩展人的智能的理论、方法、技术及应用系统的一门新的技术科学，它是计算机科学的一个分支，也是计算机科学技术的前沿科技领域，它企图了解智能的实质，并生产出一种新的能以人类智能相似的方式做出反应的智能机器，该领域的研究包括机器人、语言识别、图像识别、自然语言处理和专家系统等[2]。\par 
+它研究如何用计算机去模拟、延伸和扩展人的智能；如何把计算机用得更聪明；如何设计和建造具有高智能水平的计算机应用系统；如何设计和制造更聪明的计算机以及智能水平更高的智能计算机等。\par
+人工智能与计算机软件有密切的关系。一方面，各种人工智能应用系统都要用计算机软件去实现，另一方面，许多聪明的计算机软件也应用了人工智能的理论方法和技术。[4]例如，专家系统软件，机器博弈软件等。但是，人工智能不等于软件，除了软件以外，还有硬件及其他自动化和通信设备。\par
+它企图了解智能的实质，并生产出一种新的能以人类智能相似的方式做出反应的智能机器，是一门极富挑战性的科学，从事这项工作的人必须懂得计算机知识，心理学和哲学。人工智能是包括十分广泛的科学，它由不同的领域组成，如机器学习，计算机视觉等等，总的说来，人工智能研究的一个主要目标是使机器能够胜任一些通常需要人类智能才能完成的复杂工作[5]。人工智能从诞生以来，理论和技术日益成熟，应用领域也不断扩大，在不久的将来，一定会是人类智慧最好的证明。\par
+阿尔法围棋（AlphaGo）是第一个击败人类职业围棋选手、第一个战胜围棋世界冠军的人工智能机器人，由Google旗下DeepMind公司戴密斯.哈萨比斯领衔的团队开发。这个便是人工智能成功的典范，代表了计算科学的强大。
+
+
+
+\subsection{生物信息学与计算科学}
+\par 生物信息学是一门新兴的交叉学科,计算机科学如何更快更好地发挥其在生物信息学中的作用是我国广大计算机研究和开发人员面临的一个重要的新课题。随着社会经济的不断进步与发展，计算机技术的不断创新改革，计算机科学受到了越来越多生物信息学者的关注和重视。计算机科学作为生物信息学中的重中之重，是一个必不可缺的关键组成部分，生物信息学中的问题具有数量繁多、计算量大的鲜明特征，必须采用最先进合理的计算机科学进行计算，才能不断提高处理生物信息学问题的效率。\par
+虽然作为一门新兴学科，但是对许多计算机工作者来说并不陌生。事实上，生物信息学已经成为计算机科学的一个重要分支，或者说计算机科学是生物信息学的主要支柱之一。与两个重要支柱——生物学和统计学，数学、物理学、化学、医学，以及工程都与之有密切的关系。\par
+生物信息学的兴起是与人类基因组的测序计划分不开的，人类基因组又被称为是我们生命的蓝图，因为它作为遗传的载体，标志着人类与其他物种的不同，另外，我们每个人的基因组的差异在很大程度上决定了个体的容貌和健康状况（例如容易得什么病）。从计算机科学的角度，我们可以把人类基因组想象成由三十亿个字符串（序列）组成，代表了人体所有约三万个基因。可以想见，分析这样复杂的序列没有计算机是不可能的，再加上世界上万千变化的无数动物、植物、微生物，其中数以百计的物种人们已经完成了它们的测序工作，数万物种的测序任务将在今后十年内完成。\par
+生物信息学已经发展到很难有一个精确的定义，因为生物信息学在生物学研究中无所不在，作为工具整合进几乎所有的研究中。生物信息学的先驱之一，CSHL 的 Lincoln Stein 数年前曾撰文说生物信息学将在十年内“消亡”，此言极有预见性，因为到今天生物信息学已经融入生物学研究的每一个领域，很难再称为是一个专门的学科了。就像八九十年代流行的“分子生物学”，当时仿佛生物学可以分为“分子”和“传统”的生物学。到今天已经无人再提“分子生物学”这个词，因为几乎所有的生物学领域都已经“分子”化了。生物信息学也是如此，几乎所有的生物学领域都已经“信息”化了，生物信息学作为一个独立学科的使命，也就到此为止。\par
+生物信息的发展伴随着计算机计算能力提高和生物学数据的积累。还有数学理论和算法在生物学数据的应用。目前主要的是在数据处理，数据挖掘和预测。比如基因组组装，基因预测和蛋白结构预测。\par
+
+
+\subsection{计算机图形学与计算科学}
+\par 计算机图形学是人机交互最有效的最通俗的手段。计算机图形的显示对用户有强大的吸引力，直观清晰的特性拓展了其应用范围。集成电路的发展为图形学提供了坚强的硬件支持，图形学也使得硬件的工作效率大幅度提高。\par
+随着计算机技术的快速发展，涉及到图形学的方面越来越多，应用也变得越来越深入，比如卫星照片的处理，汽车零部件的图形显示等等。经过多年的发展，逐渐形成了多个与图形学相关的分之科学，计算机图形学，图像处理和模式识别就是其代表。\par
+计算机图形学就是使用计算机进行图像和图形的输出的技术。计算机图形学是研究如何是计算机的内部数据显示为外观可视化图形的技术，并在专门的设备上显示的原理，方法和技术的学科。综合了计算机技术和科学计算方面的知识。计算机图形学的任务就是利用计算机构造对象的模型，然后运用计算机图形学的运算方法对对象的模型进行数据层次的处理，从而实现计算机对某个对象的图形输出。可以说计算机产生图形就是将数据转化为图形输出的过程。\par
+计算机图形学的应用现今已经涉及到人们生活的各个方面，教育，商业，医学，娱乐，广告等等。在科学技术事业中，可以使用计算机数据计算或者数据处理所得的结果的图形，比如函数图形，统计图形等等。在制图学方面，可以使用计算机进行地形图，天气图，海洋图，人口密度图等等。\par
+以上三种是计算科学的分支项目，但都与计算科学密切相关，由此可以看出，计算科学对于现在，甚至未来而言，都是十分重要的。
+
+
+\section{进一步的思考}
+\par 人工智能和大数据无处不在，包括金融、汽车、零售、餐饮、电信、能源、政务、医疗、体育、娱乐等在内的社会各行各业都已经融入了大数据的印迹。而在技术方面主要有以下几点：
+
+\begin{itemize}
+	\item 数据采集 
+	\item 数据存储和管理示
+	\item 数据处理与分析
+	\item 数据处理与分析
+\end{itemize}
+
+\par 其中数据处理与分析十分的重要，数据处理与分析就是利用分布式并行编程模型和计算框架，结合机器学习和数据挖掘算法，实现对海量数据的处理和分析；对分析结果进行可视化呈现，帮助人们更好地理解数据、分析数据。\par
+在Python中有许多机器学习和数据处理的第三方库，这些库中有不同的数据预处理函数，其中Pandas是Python的一个数据分析包，Pandas是基于NumPy构建的含有更高级数据结构和工具的数据分析包。与传统数据分析方法相比，传统的数据分析方法仅仅支持百万数据的处理，数据清洗效率低下；无法支持复杂图表的可视化，数据展示成果简单。而Pandas数据分析方法却能支持GB级数据处理，数据清洗方法多样；支持多种开源可视化工具包，数据成果展示更加丰富。\par
+在进行数据分析时，免不了要用到pandas库，当我在利用jp进行.csv文件的读取时出现error，这个其实是很常见的问题，那是因为我们常常会忘记先执行之前的代码，而是先执行了后面的代码，导致pandas库实际上是没有被import的，很快我也发现了这个问题，这都是粗心导致的。这时应该冷静下来，想一想在这些操作中哪里会出现问题？百度查找发现一般会有以下3种可能性：
+
+\begin{itemize}
+	\item 代码写错了 
+	\item 是不是这个编译器出现问题（在cmd中查看pandas库是否安装，种种迹象表明应该不是编译器的问题，排除了jp的错误）
+	\item 数据处理与分析读取的数据集有问题，error最后是：'utf-8' codec can't decode byte 0xcf in position 2: invalid continuation byte  ，数据集一般都不是utf-8的格式，因此另存为utf-8格式的.csv数据集
+\end{itemize}
+\par 有些问题对于有经验的程序员来说可能几分钟或者几秒钟就解决了，而我花了将近一个小时进行思考、错误定位、实践检验等，这其中有我的不仔细造成的错误，也有原先我并不知道的错误，现将这些错误整理一下，为将来的自己或者读者遇到类似的问题可以参考，也是对自己的一种反思、警戒！
+
+
+
+\section{总结}
+\par 计算机导论这门课程有以下特点:\par
+首先，课程全面地阐述了计算学科中的科学问题，包括计算机网络，计算机体系结构与组织、程序设计语言、程序设计基础、算法、信息管理、软件工程、操作系统、人机交互、离散数学、汇编语言、数据结构等，也就是涉及软件、网络、图像、应用等多方面技术。并通过大量生动的例子，深入浅出地阐明了计算学科中各领域发展的基本规律，揭示了各领域之间的内在联系，有助于我们更好地了解学科中具有共同的、本质特征的内容。\par
+其次，运用数学的公理化思想，脉络清晰，形成了一个系统化、逻辑化的模型，将零乱的知识顺畅地串了起来。计算机科学与技术这一专业其包含了很多与计算机有关的技术，每一样是实用性都是很高的，全面地为我们介绍了计算科学知识领域划分的过程，涵盖的问题，以及学科的本质，再如计算机应用、软件工程、软件测试、网络安全、多媒体技术等等实用性都是很高的。\par
+
+学习必须要有目标，有了目标的学习才不会在社会的各种诱惑中迷失自我，才不会盲目地学习，计算机类学生,要求不同于数学和物理的数学系,阶级差别较大。通常非数学专业的所谓“高等数学”,更困难的数学分析理论,强调部分完全使用公式计算。但对于计算机科学、数学分析是有用的在理论部分最大的是编辑出来。\par
+当遇到一个算法问题时,首先要知道自己以前有没有处理过这种问题.如果见过,那么你一般会顺利地做出来;如果没见过,那么考虑以下问题:\par
+1. 问题是否是建立在某种已知的熟悉的数据结构\par
+2. 问题所要求编写的算法属于以下哪种类型 \par
+3. 分析问题所要求编写的算法的数学性质.是否具备递归特征\par
+4.确认你的思路可行以后,开始编写程序.在编写代码的过程中,尽可能把各种问题考虑得详细,周密.程序应该具有良好的结构,并且在关键的地方配有注释\par 
+5.如果程序通过了上述正确性验证,那么在将其进一步优化或简化 \par
+6. 撰写思路分析,注释\par
+学习是计算机，重要的就是不断尝试错误并加以改正的耐心，慢慢学习，仔细品味才能真正的了解计算机的研究内容。
+
+
+
+
+
+\section{附录}
+
+\subsection{Github}
+     \quad 个人网址：https://github.com/zhangyun6666
+    \begin{figure}[!h]
+    	\begin{center}
+    		\includegraphics[width=10 cm]{pic/github.png}
+    		\caption{Github}
+    		%\label{fig:AlphaGo}
+    	\end{center}
+    \end{figure}
+    
+     
+\subsection{观察者}
+    \begin{figure}[!h]
+    	\begin{center}
+    		\includegraphics[width=10 cm]{pic/观察者.jpg}
+    		\caption{观察者}
+    		%\label{fig:AlphaGo}
+    	\end{center}
+    \end{figure}
+
+
+
+\subsection{学习强国}
+    \begin{figure}[!h]
+    	\begin{center}
+    		\includegraphics[width=10 cm]{pic/学习强国.jpg}
+    		\caption{学习强国}
+    		%\label{fig:AlphaGo}
+    	\end{center}
+    \end{figure}
+
+
+\subsection{哔哩哔哩} 
+    \begin{figure}[!h]
+    	\begin{center}
+    		\includegraphics[width=10 cm]{pic/bilibili.jpg}
+    		\caption{哔哩哔哩}
+    		%\label{fig:AlphaGo}
+    	\end{center}
+    \end{figure}
+
+
+\subsection{CSDN}
+\quad 个人网址：https://i.csdn.net/\#/uc/profile
+    \begin{figure}[!h]
+    	\begin{center}
+    		\includegraphics[width=10 cm]{pic/CSDN.png}
+    		\caption{CSDN}
+    		%\label{fig:AlphaGo}
+    	\end{center}
+    \end{figure}
+    
+    
+    
+    
+\subsection{博客园}
+\quad 个人网址：https://home.cnblogs.com/u/1910700/
+    \begin{figure}[!h]
+    	\begin{center}
+    		\includegraphics[width=10 cm]{pic/博客园.png}
+    		\caption{博客园}
+    		%\label{fig:AlphaGo}
+    	\end{center}
+    \end{figure}
+    
+    
+    
+\subsection{小木虫}
+\quad 个人网址：http://muchong.com/bbs/space.php?uid=20315537
+    \begin{figure}[!h]
+    	\begin{center}
+    		\includegraphics[width=10 cm]{pic/小木虫.png}
+    		\caption{小木虫}
+    		%\label{fig:AlphaGo}
+    	\end{center}
+    \end{figure}
+    
+
+\section{参考文献}
+
+
+[1]\quad 李素贞,朱方生.计算方法.武汉大学出版社,2005\par
+[2]\quad 贺倩，《人工智能技术的发展与应用》，《电力信息与通信技术》，2017，第9期\par
+[3]\quad 陈敏，《认知计算导论》，华中科技大学出版社，2017\par
+[4]\quad Ray Kurzweil, The Future of Artificial Intelligence (Uncovering the Mysteries of Human Thinking), Zhejiang People's Publishing House, 2016.\par
+[5]\quad Stuart Russell, Daniel Dewey, Max Tegmark ,Association for the Advancement of Artificial Intelligence,2015,36(4):105-114
+
+
+
+
+
+
+%\bibitem{李素贞} 李素贞,朱方生.计算方法.武汉大学出版社,2005
+%\bibitem{贺倩} 贺倩，《人工智能技术的发展与应用》，《电力信息与通信技术》，2017，第9期
+%\bibitem{陈敏} 陈敏，《认知计算导论》，华中科技大学出版社，2017
+%\bibitem{Kurzweil} Ray Kurzweil, The Future of Artificial Intelligence (Uncovering the Mysteries of Human Thinking), Zhejiang People's Publishing House, 2016.
+%\bibitem{Russell}Stuart Russell, Daniel Dewey, Max Tegmark ,Association for the Advancement of Artificial Intelligence,2015,36(4):105-114
+				
+%\end{thebibliography}
+
+%\hspace*{\fill} \\
+
+%\bf 注意，参考文献至少五篇，其中至少两篇为英文文献，参考文献必须在正文中有引用。}
+%\bibliographystyle{plain}
+
+%\bibliography{references}
+
+%%%我阅读了图书《机器学习实战》\citep{Harrington2013}，引发了我对卷积神经网络的兴趣，于是阅读了期刊论文《卷积神经网络研究综述》\citep{zhoufeiyan}，基于对卷积神经网络的深刻认识，我又学习了2018年计算机视觉领域的会议ECCV的会议论文《TextSnake》\citep{long2018textsnake}，来探索深度学习落实在生活生产领域的实际意义。\par
+
+\end{document}
+
